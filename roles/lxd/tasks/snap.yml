@@ -10,8 +10,6 @@
 
 - name: install lxd snap
   snap:
-    name:
-      - lxd
-    channel:
-      - "{{ lxd_channel }}"
+    name: lxd
+    channel: "{{ lxd_channel }}"
   become: yes
