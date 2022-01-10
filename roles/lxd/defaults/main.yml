@@ -3,3 +3,5 @@
 
 lxd_users:
   - "{{ ansible_user }}"
+
+lxd_channel: "4.21/stable"

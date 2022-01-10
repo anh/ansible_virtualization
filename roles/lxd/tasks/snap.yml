@@ -12,4 +12,6 @@
   snap:
     name:
       - lxd
+    channel:
+      - "{{ lxd_channel }}"
   become: yes
